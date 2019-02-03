@@ -1,0 +1,32 @@
+<html>
+
+	<head>
+			<title>Teste AngularJS</title>
+	</head>
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+		
+<style>		
+
+#resultado{
+color: blue;
+}		
+
+		
+</style>
+		
+		<body>
+		
+			<div ng-app="">
+			
+				<p>Teste de cadastro de nomes</p>
+				<p>Name: <input type="text" ng-model="name"></p>
+			
+				<p id="resultado" ng-bind="name"></p>
+			
+			</div>
+			
+		</body>
+</html>
